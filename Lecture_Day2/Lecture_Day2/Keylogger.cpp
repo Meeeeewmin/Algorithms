@@ -15,7 +15,7 @@ using namespace std;
 int T;
 list<char> pwd;
 
-int main(){
+int mainkeylogger(){
     ios::sync_with_stdio(0); cin.tie(0);
     
     cin >> T;
