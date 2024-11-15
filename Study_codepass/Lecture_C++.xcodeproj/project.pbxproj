@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
+		4EC2F00B2CE78AEE00625568 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		4EF70B8D2CE39CD50077E8A9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -19,18 +28,52 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4EF70B8F2CE39CD50077E8A9 /* Lecture_Day2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lecture_Day2; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC2F00D2CE78AEE00625568 /* Lecture_Day5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lecture_Day5; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF70B8F2CE39CD50077E8A9 /* Lecture_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lecture_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4EC2F0162CE7A55E00625568 /* Exceptions for "Day2_string" folder in "Lecture_C++" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				hireDev.cpp,
+			);
+			target = 4EF70B8E2CE39CD50077E8A9 /* Lecture_C++ */;
+		};
+		4EC2F0172CE7A55E00625568 /* Exceptions for "Day2_string" folder in "Lecture_Day5" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				hireDev.cpp,
+			);
+			target = 4EC2F00C2CE78AEE00625568 /* Lecture_Day5 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4EF70B912CE39CD50077E8A9 /* Lecture_Day2 */ = {
+		4EC2F00E2CE78AEE00625568 /* Day5_priority queue */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Lecture_Day2;
+			path = "Day5_priority queue";
+			sourceTree = "<group>";
+		};
+		4EF70B912CE39CD50077E8A9 /* Day2_string */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4EC2F0162CE7A55E00625568 /* Exceptions for "Day2_string" folder in "Lecture_C++" target */,
+				4EC2F0172CE7A55E00625568 /* Exceptions for "Day2_string" folder in "Lecture_Day5" target */,
+			);
+			path = Day2_string;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4EC2F00A2CE78AEE00625568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4EF70B8C2CE39CD50077E8A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,7 +87,8 @@
 		4EF70B862CE39CD50077E8A9 = {
 			isa = PBXGroup;
 			children = (
-				4EF70B912CE39CD50077E8A9 /* Lecture_Day2 */,
+				4EF70B912CE39CD50077E8A9 /* Day2_string */,
+				4EC2F00E2CE78AEE00625568 /* Day5_priority queue */,
 				4EF70B902CE39CD50077E8A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,7 +96,8 @@
 		4EF70B902CE39CD50077E8A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EF70B8F2CE39CD50077E8A9 /* Lecture_Day2 */,
+				4EF70B8F2CE39CD50077E8A9 /* Lecture_C++ */,
+				4EC2F00D2CE78AEE00625568 /* Lecture_Day5 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,9 +105,31 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4EF70B8E2CE39CD50077E8A9 /* Lecture_Day2 */ = {
+		4EC2F00C2CE78AEE00625568 /* Lecture_Day5 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EF70B962CE39CD50077E8A9 /* Build configuration list for PBXNativeTarget "Lecture_Day2" */;
+			buildConfigurationList = 4EC2F0112CE78AEF00625568 /* Build configuration list for PBXNativeTarget "Lecture_Day5" */;
+			buildPhases = (
+				4EC2F0092CE78AEE00625568 /* Sources */,
+				4EC2F00A2CE78AEE00625568 /* Frameworks */,
+				4EC2F00B2CE78AEE00625568 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4EC2F00E2CE78AEE00625568 /* Day5_priority queue */,
+			);
+			name = Lecture_Day5;
+			packageProductDependencies = (
+			);
+			productName = Lecture_Day5;
+			productReference = 4EC2F00D2CE78AEE00625568 /* Lecture_Day5 */;
+			productType = "com.apple.product-type.tool";
+		};
+		4EF70B8E2CE39CD50077E8A9 /* Lecture_C++ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF70B962CE39CD50077E8A9 /* Build configuration list for PBXNativeTarget "Lecture_C++" */;
 			buildPhases = (
 				4EF70B8B2CE39CD50077E8A9 /* Sources */,
 				4EF70B8C2CE39CD50077E8A9 /* Frameworks */,
@@ -73,13 +140,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				4EF70B912CE39CD50077E8A9 /* Lecture_Day2 */,
+				4EF70B912CE39CD50077E8A9 /* Day2_string */,
 			);
-			name = Lecture_Day2;
+			name = "Lecture_C++";
 			packageProductDependencies = (
 			);
 			productName = Lecture_Day2;
-			productReference = 4EF70B8F2CE39CD50077E8A9 /* Lecture_Day2 */;
+			productReference = 4EF70B8F2CE39CD50077E8A9 /* Lecture_C++ */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -91,12 +158,15 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
+					4EC2F00C2CE78AEE00625568 = {
+						CreatedOnToolsVersion = 16.1;
+					};
 					4EF70B8E2CE39CD50077E8A9 = {
 						CreatedOnToolsVersion = 16.1;
 					};
 				};
 			};
-			buildConfigurationList = 4EF70B8A2CE39CD50077E8A9 /* Build configuration list for PBXProject "Lecture_Day2" */;
+			buildConfigurationList = 4EF70B8A2CE39CD50077E8A9 /* Build configuration list for PBXProject "Lecture_C++" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -110,12 +180,20 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4EF70B8E2CE39CD50077E8A9 /* Lecture_Day2 */,
+				4EF70B8E2CE39CD50077E8A9 /* Lecture_C++ */,
+				4EC2F00C2CE78AEE00625568 /* Lecture_Day5 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4EC2F0092CE78AEE00625568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4EF70B8B2CE39CD50077E8A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -126,6 +204,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		4EC2F0122CE78AEF00625568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EC2F0132CE78AEF00625568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		4EF70B942CE39CD50077E8A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -260,7 +354,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4EF70B8A2CE39CD50077E8A9 /* Build configuration list for PBXProject "Lecture_Day2" */ = {
+		4EC2F0112CE78AEF00625568 /* Build configuration list for PBXNativeTarget "Lecture_Day5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC2F0122CE78AEF00625568 /* Debug */,
+				4EC2F0132CE78AEF00625568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EF70B8A2CE39CD50077E8A9 /* Build configuration list for PBXProject "Lecture_C++" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EF70B942CE39CD50077E8A9 /* Debug */,
@@ -269,7 +372,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EF70B962CE39CD50077E8A9 /* Build configuration list for PBXNativeTarget "Lecture_Day2" */ = {
+		4EF70B962CE39CD50077E8A9 /* Build configuration list for PBXNativeTarget "Lecture_C++" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EF70B972CE39CD50077E8A9 /* Debug */,
